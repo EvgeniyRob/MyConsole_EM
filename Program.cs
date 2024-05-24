@@ -16,14 +16,11 @@ namespace MyConsole_EM
 
             string str = ReadLine("Введите количество уровней: ");
 
-            contLevels = Convert.ToInt32(str);
-
             str = ReadLine("Введите верхнюю цену: ");
 
             priceUp = decimal.Parse(str);
 
             str = ReadLine("Введите шашг уровня: ");
-
             StepLevel = decimal.Parse(str);
 
             WriteLine();
