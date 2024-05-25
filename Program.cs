@@ -91,7 +91,7 @@ namespace MyConsole_EM
 
             return Console.ReadLine(); 
         }
-
+        // последние правки вносил 24,05,24 
     }
 
 }
